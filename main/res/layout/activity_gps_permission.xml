@@ -1,0 +1,129 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:padding="16dp"-->
+<!--    android:background="@drawable/gradient_background">-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/map"-->
+<!--        android:name="com.google.android.gms.maps.SupportMapFragment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="500dp"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        android:elevation="6dp"-->
+<!--        android:background="@android:color/white"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_centerHorizontal="true" />-->
+
+<!--    <AutoCompleteTextView-->
+<!--        android:id="@+id/etFromLocation"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="From (e.g., Current Location)"-->
+<!--        android:layout_marginTop="520dp"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:padding="12dp"-->
+<!--        android:background="@drawable/input_field_background"-->
+<!--        android:textColor="#000"-->
+<!--        android:textSize="16sp"-->
+<!--        android:elevation="4dp"-->
+<!--        android:drawableLeft="@drawable/ic_location"-->
+<!--        android:drawablePadding="10dp" />-->
+
+<!--    <AutoCompleteTextView-->
+<!--        android:id="@+id/etToLocation"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="To (e.g., Destination)"-->
+<!--        android:layout_below="@id/etFromLocation"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:padding="12dp"-->
+<!--        android:background="@drawable/input_field_background"-->
+<!--        android:textColor="#000"-->
+<!--        android:textSize="16sp"-->
+<!--        android:elevation="4dp"-->
+<!--        android:drawableLeft="@drawable/ic_flag"-->
+<!--        android:drawablePadding="10dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/GoButton"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Go"-->
+<!--        android:textColor="@android:color/white"-->
+<!--        android:backgroundTint="#6200EE"-->
+<!--        android:paddingHorizontal="32dp"-->
+<!--        android:paddingVertical="12dp"-->
+<!--        android:elevation="6dp"-->
+<!--        android:fontFamily="sans-serif-medium"-->
+<!--        android:layout_below="@id/etToLocation"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="32dp" />-->
+
+<!--</RelativeLayout>-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/gradient_background">
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <AutoCompleteTextView
+        android:id="@+id/etFromLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="From (e.g., Current Location)"
+        android:layout_below="@id/map"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:background="@drawable/input_field_background"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:drawableLeft="@drawable/ic_location"
+        android:drawablePadding="10dp" />
+
+
+    <AutoCompleteTextView
+        android:id="@+id/etToLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="To (e.g., Destination)"
+        android:layout_below="@id/etFromLocation"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:background="@drawable/input_field_background"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:drawableLeft="@drawable/ic_flag"
+        android:drawablePadding="10dp" />
+
+
+    <Button
+        android:id="@+id/btnSubmitLocations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go"
+        android:textColor="@android:color/primary_text_dark"
+        android:backgroundTint="#6200EE"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="12dp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_below="@id/etToLocation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

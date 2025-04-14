@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"> <!-- Use a gradient background -->
+
+    <!-- Animated Image -->
+    <ImageView
+        android:id="@+id/carImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/cab"
+        android:contentDescription="Car Image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/image_bg_rounded"
+        android:transitionName="carImageTransition" /> <!-- Add transition name -->
+
+    <!-- Logo Text -->
+    <TextView
+        android:id="@+id/appLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DriveHub"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:textColor="@color/primaryTextColor"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_below="@id/carImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- Catchy Slogan -->
+    <TextView
+        android:id="@+id/tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find the best ride, every time."
+        android:textSize="18sp"
+        android:textColor="@color/secondaryText"
+        android:fontFamily="sans-serif"
+        android:layout_below="@id/appLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+    <!-- Call-to-Action Button -->
+<!--    <Button-->
+<!--        android:id="@+id/startButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Get Started"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:backgroundTint="@color/primaryButtonColor"-->
+<!--        android:paddingHorizontal="32dp"-->
+<!--        android:paddingVertical="12dp"-->
+<!--        android:elevation="4dp"-->
+<!--        android:fontFamily="sans-serif-medium"-->
+<!--        android:layout_below="@id/tagline"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="32dp" />-->
+</RelativeLayout>

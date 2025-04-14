@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<resources>-->
+<!--    <color name="primaryBackground">#F9FAFB</color>-->
+<!--    <color name="primaryTextColor">#1E293B</color>-->
+<!--    <color name="secondaryTextColor">#64748B</color>-->
+<!--    <color name="primaryButtonColor">#2563EB</color>-->
+<!--    <color name="imageBackground">#E5E7EB</color>-->
+<!--    <color name="white">#FFFFFF</color>-->
+<!--</resources>-->
+
+<resources>
+        <!-- Primary Color Scheme -->
+        <color name="primaryBackground">#F9FAFB</color> <!-- Light background for the app -->
+        <color name="primaryTextColor">#1E293B</color> <!-- Dark text for high contrast -->
+        <color name="secondaryTextColor">#64748B</color> <!-- Muted gray-blue text for secondary text -->
+        <color name="primaryButtonColor">#7F00FF</color> <!-- Primary Button Color (Start of Gradient) -->
+        <color name="primaryAccentColor">#E100FF</color> <!-- Accent Color (End of Gradient) -->
+        <color name="primaryText">#FFFFFF</color> <!-- White Text for Buttons -->
+        <color name="imageBackground">#E5E7EB</color> <!-- Light Gray Background for Images -->
+
+        <!-- Secondary Color Scheme -->
+        <color name="secondaryBackground">#D1C4E9</color> <!-- Light Lavender Background -->
+        <color name="secondaryText">#D1C4E9</color> <!-- Secondary text color -->
+
+        <!-- Borders and Dividers -->
+        <color name="borderColor">#B39DDB</color> <!-- Light Purple Border Color -->
+        <color name="dividerColor">#E1BEE7</color> <!-- Light Lilac Divider Color -->
+
+        <color name="white">#FFFFFF</color>
+
+</resources>
